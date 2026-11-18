@@ -6,21 +6,38 @@
 // *NOTE* some of the code is written for you
 function canDrink(age){
     if (age >= 21) {
-        // your code here
+      return 'beer'; 
+      return 'group'
+      age = 12 // your code here
         
     } else {
-        // your code here
+        return 'juice'; // your code here
+       return 'group' // your code here
        
     }
 }
+console.log(canDrink(21));
+console.log(canDrink(20));
+console.log(canDrink(18));
+console.log(canDrink(25));
 
 // #2 use an if statement to complete the function
 // return 'can vote' if age is 18 or greater,
 // otherwise return 'can't vote'
 function canVote(age){
     //your code here
-    
+     if (age >= 18) {
+        return 'can vote';
+        
+    } else {
+        return 'can\'t vote';
+    }
 }
+console.log(canVote(18));
+console.log(canVote(17));   
+console.log(canVote(20));
+console.log(canVote(15));
+console.log(canVote(30));
 
 // #3 complete the function using an if/ else-if statement 
 // if the age is less than 15 return 'no driving'
