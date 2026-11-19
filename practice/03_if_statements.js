@@ -45,17 +45,40 @@ console.log(canVote(30));
 // if the age is 16 or 17 return 'can drive during day'
 // if the age is 18 or older return 'can drive anytime'
 function canDrive(age){
-    // your code here
-   
+    if (age < 15) {
+        return 'no driving';
+    } else if (age === 15) {
+        return 'learners permit';
+    } else if (age === 16 || age === 17) {
+        return 'can drive during day';
+    } else {
+        return 'can drive anytime';
+    }
 }
+console.log(canDrive(12));
+console.log(canDrive(14));
+console.log(canDrive(15));
+console.log(canDrive(16));
+console.log(canDrive(17));
+console.log(canDrive(18));
+console.log(canDrive(19));
 
 // #4 complete the function using an if statement
 // return 'weekday' if day is equal to 'Monday', 'Tuesday', 'Wednesday' or 'Thursday'
 // return 'almost weekend' if day is equal to 'Friday'
 // and return 'weekend' if day is equal to 'Saturday' or 'Sunday'
 function week(day){
-    // your code here
+    if (day === 'Monday' || 'Tuesday', 'Wednesday', 'Thursday') {
+        return 'weekday';// your code here
+} else if (day === 'Friday') {
+    return 'almost weekend';
+} else if (day === 'Saturday'||'Sunday')
+    return 'weekend'
 }
+
+console.log(week('Monday'));
+console.log(week('Friday'));
+console.log(week('Saturday'));
 
 
 

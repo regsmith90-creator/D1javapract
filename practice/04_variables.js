@@ -1,6 +1,8 @@
 
 let number = 5
+ number = 10
 
+console.log(Number)
 // TEST 1
 // reassign the value of number to be 10
 
