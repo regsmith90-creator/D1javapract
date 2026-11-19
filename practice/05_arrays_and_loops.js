@@ -4,6 +4,7 @@
 // of the array 
 // *NOTE* use the 'arr' parameter
 function first(arr){
+    l
     // your code here
     
 }

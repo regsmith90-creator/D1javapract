@@ -45,6 +45,8 @@ const answer11 = helloPerson('Bob');
 const answer12 = helloPerson('Alice');
 const answer13 = helloPerson('Charlie');
 const answer14 = helloPerson('David');
+const answer15 = helloPerson('Dave');
+const answer16 = helloPerson('Bill');
 
 console.log(answer9);
 console.log(answer10);
@@ -52,7 +54,8 @@ console.log(answer11);
 console.log(answer12);
 console.log(answer13);
 console.log(answer14);
-
+console.log(answer15);
+console.log(answer16);
 // #4 Complete the function 
 // by returning a minus b
 function minus(a, b){
